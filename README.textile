@@ -24,6 +24,7 @@ This file should be a list of institution IDs, starting IP addresses, and ending
 Please note that institution IDs need not be unique, so that institutions may have multiple associated IP ranges.
 
 h3. Additional Options
+
 1. Change the "pattern_allowed" variable in parse.py to match only specific URLs that match this regex.
 2. Change the "pattern_denied" variable in parse.py to not count URLs that match this regex.
 3. Need more help? Email me at primemod3 at gmail dot com and I'll see what I can do.
