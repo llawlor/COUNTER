@@ -1,0 +1,14 @@
+This file provides help for COUNTER compliance and analyzing Apache log files.
+see: http://www.projectcounter.org/
+
+To parse Apache log files:
+1. configure institution_list.txt
+2. move an Apache log file to the logs/ directory
+3. parse the log file: python parse.py logs/LOGFILENAME
+4. your processed log file will appear in logs/ with a .counter extension
+
+parse.py options:
+  -h, --help            show this help message and exit
+  -f FILE, --file=FILE  write report to FILE
+  -v, --verbose         verbose mode
+  -s, --stdout          output to standard output (terminal)
