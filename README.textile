@@ -11,6 +11,7 @@ h3. To parse Apache log files:
 4. your processed log file will appear in logs/ with a .counter extension
 
 h3. parse.py options:
+
   -h, --help            show this help message and exit
   -f FILE, --file=FILE  write report to FILE
   -v, --verbose         verbose mode
