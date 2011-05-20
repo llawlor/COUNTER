@@ -16,3 +16,9 @@ h3. parse.py options:
 -f FILE, --file=FILE  write report to FILE
 -v, --verbose         verbose mode
 -s, --stdout          output to standard output (terminal)
+
+h3. institution_list.txt
+
+This file should be a list of institution IDs, starting IP addresses, and ending IP addresses.  For example if an institution has an ID of 37 in your database and an IP range of 100.0.0.0 to 100.0.0.67, then enter the following in the text file:
+37    100.0.0.0    100.0.0.67
+Please note that institution IDs need not be unique, so that institutions may have multiple associated IP ranges.
