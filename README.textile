@@ -5,10 +5,10 @@ see: http://www.projectcounter.org/
 
 h3. To parse Apache log files:
 
-1. configure institution_list.txt
-2. move an Apache log file to the logs/ directory
-3. parse the log file: python parse.py logs/example.log
-4. your processed log file will appear in logs/ with a .counter extension: logs/example.log.counter
+1. Configure institution_list.txt
+2. Move an Apache log file to the logs/ directory
+3. Parse the log file: python parse.py logs/example.log
+4. Your processed log file will appear in logs/ with a .counter extension: logs/example.log.counter
 
 h3. parse.py options:
 
@@ -22,3 +22,8 @@ h3. institution_list.txt
 This file should be a list of institution IDs, starting IP addresses, and ending IP addresses.  For example if an institution has an ID of 37 in your database and an IP range of 100.0.0.0 to 100.0.0.67, then enter the following in the text file:
 37    100.0.0.0    100.0.0.67
 Please note that institution IDs need not be unique, so that institutions may have multiple associated IP ranges.
+
+h3. Additional Options
+1. Change the "pattern_allowed" variable in parse.py to match only specific URLs that match this regex.
+2. Change the "pattern_denied" variable in parse.py to not count URLs that match this regex.
+3. Need more help? Email me at primemod3 at gmail dot com and I'll see what I can do.
