@@ -1,7 +1,6 @@
 h1. COUNTER Python Parser
 
-This file provides help for COUNTER compliance and analyzing Apache log files.
-see: http://www.projectcounter.org/
+This program parses Apache log files in accordance with COUNTER specifications (see: http://www.projectcounter.org/). It only counts HTTP requests with a status code of 200 or 304, and complies with the 10 second double-click rule.
 
 h3. To parse Apache log files:
 
