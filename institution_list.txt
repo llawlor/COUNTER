@@ -1,2 +1,2 @@
-institution_id	start_ip	end_ip
-1	0.0.0.0	255.255.255.255
+institution_id    start_ip    end_ip
+1    0.0.0.0    255.255.255.255
