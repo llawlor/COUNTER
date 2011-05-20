@@ -12,7 +12,7 @@ h3. To parse Apache log files:
 
 h3. parse.py options:
 
-  -h, --help            show this help message and exit
-  -f FILE, --file=FILE  write report to FILE
-  -v, --verbose         verbose mode
-  -s, --stdout          output to standard output (terminal)
+-h, --help            show this help message and exit
+-f FILE, --file=FILE  write report to FILE
+-v, --verbose         verbose mode
+-s, --stdout          output to standard output (terminal)
