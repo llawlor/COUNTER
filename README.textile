@@ -25,7 +25,7 @@ Please note that institution IDs need not be unique, so that institutions may ha
 h3. Additional Options
 
 1. Change the "pattern_allowed" variable in parse.py to match only specific URLs that match this regex.
-2. Change the "pattern_denied" variable in parse.py to not count URLs that match this regex.
+2. Change the "pattern_denied" variable in parse.py to skip over URLs that match this regex.
 
 h3. Additional Help
 
